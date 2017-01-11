@@ -3,7 +3,7 @@ class Musician
 
   def initialize(instrument_behavior=nil, dance_behavior=nil)
     @instrument_behavior = instrument_behavior || InstrumentBehavior
-		@dance_behavior = dance_behavior || DanceBehavior
+    @dance_behavior = dance_behavior || DanceBehavior
   end
 
   def play_instrument
