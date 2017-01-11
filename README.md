@@ -35,3 +35,6 @@ class Singer < Musician
   end
 end
 ```
+
+This is being left in the code as an example because it's worth noting that this
+is an option. Use your best judgement.
