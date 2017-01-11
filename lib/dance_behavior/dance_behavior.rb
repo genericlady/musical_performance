@@ -1,6 +1,6 @@
 module DanceBehavior
   def self.dance
-    error_message = "\nERROR: Missing behavior for self.run"
+    error_message = "\nERROR: Missing behavior for DanceBehavior.dance"
     begin
       raise NotImplementedError, error_message
     rescue NotImplementedError => error
