@@ -4,7 +4,7 @@ This is also sample code from a Learn.co Study group on 01/10/2017.
 
 # A possible anti-pattern
 It may be a good idea to explicitly set a classes behavior at initialization.
-In the following example `Drummer` has it's behaviors set at initializaiton and
+In the following example `Drummer` has its behaviors set at initializaiton and
 the Singer has the behavior set by overriding the initialize from it's parent
 class with default behavior.
 
