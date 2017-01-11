@@ -1,0 +1,2 @@
+class BassGuitarist < Musician
+end
