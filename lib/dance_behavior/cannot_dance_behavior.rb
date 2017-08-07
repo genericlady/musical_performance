@@ -1,9 +1,8 @@
-module CannotDanceBehavior
+class CannotDanceBehavior
   extend DanceBehavior
 
-  def self.dance
+  def dance
     puts "::Can't dance, won't dance::"
   end
 end
-
 

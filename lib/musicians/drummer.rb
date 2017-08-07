@@ -1,5 +1,5 @@
 class Drummer < Musician
-  def display
+  def introduction
     puts "I am the drummer"
   end
 end

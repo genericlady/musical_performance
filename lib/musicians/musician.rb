@@ -1,9 +1,9 @@
 class Musician
   attr_accessor :instrument_behavior, :dance_behavior
 
-  def initialize(instrument_behavior=nil, dance_behavior=nil)
-    @instrument_behavior = instrument_behavior || InstrumentBehavior
-    @dance_behavior = dance_behavior || DanceBehavior
+  def initialize(instrument_behavior, dance_behavior)
+    @instrument_behavior = instrument_behavior
+    @dance_behavior = dance_behavior
   end
 
   def play_instrument

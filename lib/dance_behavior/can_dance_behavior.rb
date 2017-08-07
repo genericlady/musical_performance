@@ -1,7 +1,7 @@
-module CanDanceBehavior
+class CanDanceBehavior
   extend DanceBehavior
 
-  def self.dance
+  def dance
     puts "::Does an awesome dance::"
   end
 end

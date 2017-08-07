@@ -1,7 +1,7 @@
-module BassGuitarBehavior
+class BassGuitarBehavior
   extend InstrumentBehavior
 
-  def self.play_instrument
+  def play_instrument
     puts "Strummmmmmmmm"
   end
 end
